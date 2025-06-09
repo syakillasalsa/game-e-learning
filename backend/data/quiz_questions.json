@@ -1,0 +1,247 @@
+[
+    {
+        "question": "What animal says 'moo'?",
+        "options": ["Dog", "Cat", "Cow", "Duck"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What color is the sky on a sunny day?",
+        "options": ["Green", "Blue", "Yellow", "Red"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How many legs does a dog have?",
+        "options": ["Two", "Four", "Six", "Eight"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "Which fruit is yellow and long?",
+        "options": ["Apple", "Orange", "Banana", "Grape"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What do you wear on your feet?",
+        "options": ["Gloves", "Hat", "Shoes", "Scarf"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "How many days are in a week?",
+        "options": ["Five", "Six", "Seven", "Eight"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What do bees make?",
+        "options": ["Milk", "Honey", "Cheese", "Bread"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "Which season comes after winter?",
+        "options": ["Summer", "Spring", "Fall", "Autumn"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do you use to write?",
+        "options": ["Fork", "Spoon", "Pen", "Plate"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "How many wheels does a bicycle have?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What color do you get when you mix red and yellow?",
+        "options": ["Purple", "Orange", "Green", "Pink"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "Which animal is known as the king of the jungle?",
+        "options": ["Tiger", "Elephant", "Lion", "Monkey"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What do fish use to breathe underwater?",
+        "options": ["Lungs", "Gills", "Nose", "Mouth"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How many fingers does one hand have?",
+        "options": ["Four", "Five", "Six", "Seven"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do plants need to grow?",
+        "options": ["Ice", "Sunlight", "Snow", "Sand"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "Which shape has three sides?",
+        "options": ["Circle", "Square", "Triangle", "Rectangle"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What do you use to brush your teeth?",
+        "options": ["Comb", "Toothbrush", "Fork", "Spoon"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "Which meal do you eat in the morning?",
+        "options": ["Dinner", "Lunch", "Breakfast", "Snack"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What sound does a cat make?",
+        "options": ["Bark", "Meow", "Moo", "Quack"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How many months are in a year?",
+        "options": ["Ten", "Eleven", "Twelve", "Thirteen"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What do you call a baby cat?",
+        "options": ["Puppy", "Kitten", "Cub", "Chick"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "Which planet is closest to the sun?",
+        "options": ["Earth", "Venus", "Mercury", "Mars"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What color do you get when you mix blue and yellow?",
+        "options": ["Purple", "Green", "Orange", "Pink"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How many sides does a square have?",
+        "options": ["Three", "Four", "Five", "Six"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do you call frozen water?",
+        "options": ["Steam", "Ice", "Snow", "Rain"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "Which animal is known for its long neck?",
+        "options": ["Elephant", "Giraffe", "Horse", "Zebra"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do you wear to protect your eyes from the sun?",
+        "options": ["Hat", "Sunglasses", "Scarf", "Gloves"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How many legs does a spider have?",
+        "options": ["Six", "Eight", "Ten", "Twelve"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do you call the meal you eat in the evening?",
+        "options": ["Breakfast", "Lunch", "Dinner", "Brunch"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "Which fruit is red and often made into sauce?",
+        "options": ["Apple", "Banana", "Orange", "Tomato"],
+        "correctAnswerIndex": 3
+    },
+    {
+        "question": "What do you use to cut paper?",
+        "options": ["Spoon", "Scissors", "Fork", "Knife"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How many minutes are in one hour?",
+        "options": ["Fifty", "Sixty", "Seventy", "Eighty"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do you call a person who teaches students?",
+        "options": ["Doctor", "Teacher", "Pilot", "Chef"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "Which season comes after spring?",
+        "options": ["Winter", "Fall", "Summer", "Autumn"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What do you call the place where books are kept?",
+        "options": ["Hospital", "Library", "School", "Store"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How many hours are in one day?",
+        "options": ["Twenty", "Twenty-two", "Twenty-four", "Twenty-six"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What do you call a baby dog?",
+        "options": ["Kitten", "Puppy", "Calf", "Lamb"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "Which direction is opposite of north?",
+        "options": ["East", "West", "South", "Northeast"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What do you call the person who flies an airplane?",
+        "options": ["Driver", "Captain", "Pilot", "Engineer"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "How many days are in February during a leap year?",
+        "options": ["Twenty-eight", "Twenty-nine", "Thirty", "Thirty-one"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do you call the largest ocean on Earth?",
+        "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "correctAnswerIndex": 3
+    },
+    {
+        "question": "Which shape has no corners?",
+        "options": ["Triangle", "Square", "Circle", "Rectangle"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What do you call water that falls from the sky?",
+        "options": ["Snow", "Rain", "Hail", "Sleet"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How many sides does a triangle have?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do you call the person who cuts hair?",
+        "options": ["Doctor", "Teacher", "Barber", "Chef"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "Which animal gives us milk?",
+        "options": ["Chicken", "Cow", "Pig", "Horse"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do you call the place where you sleep?",
+        "options": ["Kitchen", "Bathroom", "Bedroom", "Living room"],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "How many cents are in one dollar?",
+        "options": ["Fifty", "One hundred", "Two hundred", "Ten"],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What do you call the first meal of the day?",
+        "options": ["Lunch", "Dinner", "Breakfast", "Snack"],
+        "correctAnswerIndex": 2
+    }
+]

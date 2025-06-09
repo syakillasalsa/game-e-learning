@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Fun Quiz!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <button class="back-btn" onclick="window.location.href='index.html'">Back to Menu</button>
+
+        <!-- Fun Quiz! Game -->
+        <div id="fun-quiz-game" class="screen active">
+            <h2 class="mb-3">💡 Fun Quiz! 💡</h2>
+            <div class="score-board mb-6">
+                <div class="score-item">
+                    <span>Score</span>
+                    <span id="quiz-score" class="score-value">0</span>
+                </div>
+                <div class="score-item">
+                    <span>Question #</span>
+                    <span id="quiz-question-count" class="score-value">0</span>
+                </div>
+                <div class="score-item timer-item">
+                    <span>Time Left</span>
+                    <span id="quiz-timer" class="score-value">60</span>
+                </div>
+            </div>
+            <p id="quiz-question-display" class="quiz-question mb-6"></p>
+            <div id="quiz-options-container" class="quiz-options">
+                <!-- Options will be dynamically inserted here -->
+            </div>
+            <button id="quiz-submit-btn" class="submit-game-btn w-full mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
+                Submit Answer
+            </button>
+            <div id="quiz-message-area" class="message hidden"></div>
+            <div id="quiz-summary-area" class="hidden"></div>
+        </div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize the game when the page loads
+        window.onload = function() {
+            initFunQuizGame();
+        };
+    </script>
+</body>
+</html>

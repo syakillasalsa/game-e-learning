@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Guess the Word!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <button class="back-btn" onclick="window.location.href='index.html'">Back to Menu</button>
+
+        <!-- Guess the Word Game -->
+        <div id="guess-word-game" class="screen active">
+            <h2 class="mb-3">📖 Guess the Word! 📖</h2>
+            <div class="score-board mb-6">
+                <div class="score-item">
+                    <span>Score</span>
+                    <span id="word-score" class="score-value">0</span>
+                </div>
+                <div class="score-item">
+                    <span>Question #</span>
+                    <span id="word-question-count" class="score-value">0</span>
+                </div>
+                <div class="score-item timer-item">
+                    <span>Time Left</span>
+                    <span id="word-timer" class="score-value">60</span>
+                </div>
+            </div>
+            <p id="word-hint-display" class="word-hint mb-6"></p>
+            <input type="text" id="word-answer-input" placeholder="Type your guess here!" class="mb-4">
+            <button id="word-submit-btn" class="submit-game-btn w-full mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
+                Submit Answer
+            </button>
+            <div id="word-message-area" class="message hidden"></div>
+            <div id="word-summary-area" class="hidden"></div>
+        </div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize the game when the page loads
+        window.onload = function() {
+            initGuessWordGame();
+        };
+    </script>
+</body>
+</html>

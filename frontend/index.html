@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Learning Fun Games!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Main Menu Screen -->
+        <div id="menu-screen" class="screen active">
+            <h1 class="mb-4">🎮 Learning Fun Games! ✨</h1>
+            <p class="mb-6">🚀 Ready to play and learn? Choose your adventure below! 🌟</p>
+            <div class="game-card-grid">
+                <!-- Guess the Picture Card -->
+                <div class="game-card">
+                    <img src="images/picture.png" alt="Guess the Picture Game Thumbnail" class="game-card-image">
+                    <h3 class="game-card-title">🎨 Guess the Picture!</h3>
+                    <p class="game-card-description">Look at images and guess what they are! Test your observation skills.</p>
+                    <button class="game-card-button" onclick="window.location.href='guess_picture_game.html'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        Play Now!
+                    </button>
+                </div>
+                <!-- Guess the Word Card -->
+                <div class="game-card">
+                    <img src="images/word.png" alt="Guess the Picture Game Thumbnail" class="game-card-image">
+                    <h3 class="game-card-title">📖 Guess the Word!</h3>
+                    <p class="game-card-description">Use clever hints to figure out mystery words! Expand your vocabulary.</p>
+                    <button class="game-card-button" onclick="window.location.href='guess_word_game.html'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        Play Now!
+                    </button>
+                </div>
+                <!-- Math Challenge Card -->
+                <div class="game-card">
+                    <img src="images/math.png" alt="Guess the Picture Game Thumbnail" class="game-card-image">
+                    <h3 class="game-card-title">🔢 Math Challenge!</h3>
+                    <p class="game-card-description">Solve math problems and level up! Challenge your calculation skills.</p>
+                    <button class="game-card-button" onclick="window.location.href='math_challenge_game.html'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        Play Now!
+                    </button>
+                </div>
+                <!-- New: Fun Quiz! Card -->
+                <div class="game-card">
+                    <img src="images/quiz.png" alt="Guess the Picture Game Thumbnail" class="game-card-image">
+                    <h3 class="game-card-title">💡 Fun Quiz!</h3>
+                    <p class="game-card-description">Answer multiple choice questions! Test your general knowledge.</p>
+                    <button class="game-card-button" onclick="window.location.href='fun_quiz_game.html'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 6c0 1.3.5 2.6 1.5 3.5.8.8 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/><path d="M8 6h.01"/><path d="M16 6h.01"/></svg>
+                        Play Now!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+some things we need to do to improve this project:
+- add timer to the game: when the player starts the game it shows that they have 60 seconds to complete the game. and every time they answer a question correctly, the timer decreases by 5 seconds. if the player runs out of time, they lose the game. if the player answers a question incorrectly, the timer decreases by 10 seconds.
+- add a scoring system: when the player answers a question correctly, they earn points. the more questions they answer correctly, the more points they earn. if the player answers a question incorrectly, they lose points. the more questions they answer incorrectly, the more points they lose.
+- add summary: at the end of the game, the player is shown a summary of their performance, including their score, the number of questions they answered correctly and incorrectly, and their time remaining.
+
+
+UI update:
+- add a timer display to the game screen
+- add a scoring display to the game screen
+- add a summary display to the game screen
+- update the look so this web application is more user-friendly and visually appealing.
+- update the layout so that the game screen is more organized and easy to navigate.
+- the title of the game in each game needs to be more prominent and easy to read.

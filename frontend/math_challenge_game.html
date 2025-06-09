@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Math Challenge!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <button class="back-btn" onclick="window.location.href='index.html'">Back to Menu</button>
+
+        <!-- Math Challenge Game -->
+        <div id="math-challenge-game" class="screen active">
+            <h2 class="mb-3">🔢 Math Challenge! 🔢</h2>
+            <div class="score-board mb-6">
+                <div class="score-item">
+                    <span>Score</span>
+                    <span id="math-score" class="score-value">0</span>
+                </div>
+                <div class="score-item">
+                    <span>Level</span>
+                    <span id="math-level" class="score-value">1</span>
+                </div>
+                <div class="score-item timer-item">
+                    <span>Time Left</span>
+                    <span id="math-timer" class="score-value">60</span>
+                </div>
+            </div>
+            <p id="math-question-display" class="math-question mb-6"></p>
+            <input type="number" id="math-answer-input" placeholder="Enter your answer" class="mb-4">
+            <button id="math-submit-btn" class="submit-game-btn w-full mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
+                Submit Answer
+            </button>
+            <div id="math-message-area" class="message hidden"></div>
+            <div id="math-summary-area" class="hidden"></div>
+        </div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize the game when the page loads
+        window.onload = function() {
+            initMathGame();
+        };
+    </script>
+</body>
+</html>
